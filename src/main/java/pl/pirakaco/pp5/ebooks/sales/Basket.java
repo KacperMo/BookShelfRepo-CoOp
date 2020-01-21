@@ -6,6 +6,15 @@ public class Basket {
         return new Basket();
     }
 
+    public static long totalCosts() {
+        long costs;//tutaj dopisać
+        return costs;
+    }
+    public static long shippingCost() {
+        long costs;//tutaj dopisać
+        return costs;
+    }
+
     public int productsCount() {
         return 0;
     }
@@ -13,4 +22,8 @@ public class Basket {
     public void add(Product product) {
 
     }
+    public void countDiscount(){
+
+    }
+
 }
